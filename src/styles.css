@@ -1,5 +1,9 @@
+body {
+  margin: 40px;
+}
 h1{
-  text-align: center;
-  margin    : 0;
-  font-size : 48px;
+  text-align   : center;
+  margin       : 0;
+  margin-bottom: 10px;
+  font-size    : 48px;
 }
