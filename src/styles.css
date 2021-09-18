@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 40px;
 }
 h1{
@@ -6,4 +6,21 @@ h1{
   margin       : 0;
   margin-bottom: 10px;
   font-size    : 48px;
+} */
+body{
+  margin: 40px;
+  /* background-image : url('../images/do-more.jpg');
+  background-repeat: no-repeat;
+  background-size  : 500px; */
 }
+/* h1 {
+  position     : absolute;
+  text-align   : center;
+  margin       : 0;
+  margin-bottom: 10px;
+  font-size    : 48px;
+} */
+/* .all{
+  display        : flex;
+  justify-content: center;
+} */
