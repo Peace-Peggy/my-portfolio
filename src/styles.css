@@ -1,26 +1,72 @@
-/* body {
-  margin: 40px;
-}
-h1{
-  text-align   : center;
-  margin       : 0;
-  margin-bottom: 10px;
-  font-size    : 48px;
-} */
-body{
-  margin: 40px;
-  /* background-image : url('../images/do-more.jpg');
+/*body {
+  background-color : #f2f2f2;
+  color            : #f2f2f2;
+  color            : #000;
   background-repeat: no-repeat;
-  background-size  : 500px; */
+  background-size  : 75% 50%;
+  font-family      : 'Bona Nova',        serif;
+  font-family      : 'Playfair Display', serif;
+}*/
+:root {
+  --primary-font  : "Playfair Display", serif;
+  --secondary-font: "Bona Nova",        serif;
 }
-/* h1 {
-  position     : absolute;
+
+.hero {
+  /* background-image: url("photographer.jpg"); The image used */
+  background-color: #f8f8f8;
+  /* Used if the image is unavailable */
+  height: 750px;
+  /* You must set a specified height */
+  /* background-position: center;  Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  /* Resize the background image to cover the entire container */
+}
+
+p strong {
+  display      : block;
+  font-size    : 45px;
+  margin-top   : 200px;
+  margin-bottom: -15px;
+  font-family  : var(--primary-font);
+}
+
+.col img {
+  max-width   : 150%;
+  margin      : 70px 0 0 -312px;
+  width       : 900px;
+  height      : auto;
+  display     : block;
+  border-style: none;
+}
+.role {
   text-align   : center;
-  margin       : 0;
-  margin-bottom: 10px;
-  font-size    : 48px;
-} */
-/* .all{
+  margin-top   : 10px;
+  margin-bottom: 20px;
+  font-family  : var(--primary-font);
+}
+
+.greeting,
+strong {
+  font-size  : 20px;
+  text-align : center;
+  font-family: var(--secondary-font);
+}
+
+.contact-me {
   display        : flex;
+  font-family    : var(--primary-font);
   justify-content: center;
-} */
+  margin-top     : 50px;
+}
+
+.contact-me a {
+  padding         : 10px 25px;
+  background-color: #f0a488;
+  /* background-color: #b7a297; */
+  border     : none;
+  font-weight: bold;
+  color      : rgb(26, 38, 148);
+}
