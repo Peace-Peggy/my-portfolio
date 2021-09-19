@@ -1,32 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
       crossorigin="anonymous"
     />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bona+Nova&family=Playfair+Display&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="src/styles.css" />
-  <title>Peace-Peggy</title>
-</head>
-<body>
-  <div class="hero">
+    <title>Peace-Peggy</title>
+  </head>
+  <body>
+    <div class="hero">
       <div class="container">
         <div class="row">
           <div class="col">
-            <!-- <h1>P.A</h1> -->
-            <img src="images/do-more.jpg" class="d-flex" />
+            <!-- <h1>P.A</h1> d-flex took this out from the class of the hero image-->
+            <img src="images/do-more.jpg" class="do-more" />
           </div>
-          <div class="col">
+          <div class="col top-hero">
             <p><strong>Peace-Peggy</strong></p>
             <h1 class="role">FRONT-END DEVELOPER</h1>
             <h6 class="greeting">Hello there 👋 nice to meet you</h6>
@@ -39,5 +41,46 @@
         </div>
       </div>
     </div>
-</body>
+    <div class="container">
+      <div class="row justify-content-start apps">
+        <div class="col-6">
+          <h3 class="app-heading">Adventure</h3>
+          <p class="app-desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+            quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
+            eos eveniet alias temporibus deserunt veritatis minima fugiat
+            explicabo eum dolore.
+          </p>
+          <a href="#" class="launch-button">Learn more</a>
+        </div>
+        <div class="col-6">
+          <img
+            src="images/adventure.png"
+            class="img-fluid rounded app-photo"
+            alt="..."
+          />
+        </div>
+
+        <div class="row justify-content-start apps">
+          <div class="col-6">
+            <img
+              src="images/weather-app.PNG"
+              class="img-fluid rounded app-photo"
+              alt="..."
+            />
+          </div>
+          <div class="col-6">
+            <h3 class="app-heading">Yoga app</h3>
+            <p class="app-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perferendis quia, dignissimos nam ratione veniam quibusdam porro
+              omnis quam vel eos eveniet alias temporibus deserunt veritatis
+              minima fugiat explicabo eum dolore.
+            </p>
+            <a href="#" class="launch-button">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
