@@ -126,8 +126,8 @@ strong {
 .about-img {
   /* justify-content: start; */
   /* margin: 60px 0 0 -310px; */
-  width : 600px;
-  height: 600px;
+  max-width: 100%;
+  height   : auto;
 }
 
 .hello {
@@ -175,5 +175,8 @@ strong {
 .nav-link:hover {
   color: #f0a488;
 
+}
+.active{
+  color: #000;
 }
 /* background-color: #f2f2f2; */
