@@ -165,5 +165,15 @@ strong {
 .l-connect{
   margin-top: 100px;
 }
+.nav-link {
+  color      : rgb(8, 24, 167);
+  font-size  : 15px;
+  font-weight: 600;
+  font-family: var(--primary-font);
 
+}
+.nav-link:hover {
+  color: #f0a488;
+
+}
 /* background-color: #f2f2f2; */
