@@ -128,16 +128,28 @@ strong {
   /* margin: 60px 0 0 -310px; */
   max-width: 100%;
   height   : auto;
+  margin   : 70px 0 0 -10px;
+ 
 }
+.skills{
+  font-family: var(--primary-font);
+  font-weight: 600;
 
+}
+.skills-lists li{
+font-family: var(--secondary-font);
+list-style : none;
+font-size  : 17px;;
+}
 .hello {
   font-family: var(--primary-font);
   margin-top : 90px;
+  font-size  : 30px;
 }
 
 .info {
   font-family: var(--secondary-font);
-  font-size  : 20px;
+  font-size  : 17px;
 }
 
 .app-heading, .l-connect{
@@ -156,6 +168,13 @@ strong {
 .apps {
   margin-bottom: 50px;
 }
+.working-on{
+  font-family: var(--primary-font);
+  color      : rgb(52, 52, 189);
+}
+.working-info{
+  font-family: var(--secondary-font);
+}
 .connect{
   font-family: var(--primary-font);
   font-size  : 25px;
@@ -170,8 +189,8 @@ strong {
   font-size  : 15px;
   font-weight: 600;
   font-family: var(--primary-font);
-
 }
+
 .nav-link:hover {
   color: #f0a488;
 
